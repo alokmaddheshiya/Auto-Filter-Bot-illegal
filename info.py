@@ -11,13 +11,13 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-API_ID = environ.get('API_ID', '')
+API_ID = environ.get('API_ID', '17132107')
 if len(API_ID) == 0:
     print('Error - API_ID is missing, exiting now')
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '')
+API_HASH = environ.get('API_HASH', '780b6222fe53cf875c005d9dc342fcbe')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
